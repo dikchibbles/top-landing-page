@@ -42,6 +42,8 @@ header {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .header-content-text {
@@ -95,6 +97,7 @@ main {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nft-image {
