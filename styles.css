@@ -1,3 +1,184 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 25px;
+}
+
+header {
+    background-color: black;
+    flex-grow: 1;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 50px 50px;
+    gap: 20px;
+}
+
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: x-large;
+    color: black;
+}
+
+.header-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-content-text {
+    max-width: 400px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nft-collections {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    background-image: url("https://media1.giphy.com/media/fmkYSBlJt3XjNF6p9c/giphy.gif?cid=ecf05e47wn01rjjm2hdi0u12fx7awgqefrglb5gpvbtpfgmv&rid=giphy.gif&ct=g");
+}
+
+.title {
+    flex-shrink: 1;
+}
+
+.title-nft-text, .nft-title, .artist-text {
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.artist {
+    margin-top: 50px;
+    align-self: flex-end;
+}
+
+.title-text {
+    margin-top: 0;
+    color: white;
+}
+
+.header-text {
+    color: white;
+}
+
+.nft-images {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nft-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nft {
+    width: 200px;
+    height: 200px;
+}
+
+.nft-quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    background-color: black;
+}
+
+.quote-text {
+    max-width: 600px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    white-space: pre-wrap;
+    color: white;
+
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+}
+
+
+/* CSS */
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
